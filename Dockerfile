@@ -5,6 +5,7 @@ RUN apt-get update
 
 # Get add-apt-repository function
 RUN apt-get install --yes software-properties-common
+RUN apt-get update
 
 # Fix issue with install wanting to be interactive
 ENV DEBIAN_FRONTEND=noninteractive
