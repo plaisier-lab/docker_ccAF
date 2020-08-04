@@ -47,4 +47,5 @@ RUN pip3 install \
     setuptools \
     wheel \
     twine \
-    importlib_resources
+    importlib_resources \
+    ccAF
