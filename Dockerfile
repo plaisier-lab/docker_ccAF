@@ -45,4 +45,5 @@ RUN pip3 install \
     pandas \
     setuptools \
     wheel \
-    twine
+    twine \
+    importlib_resources
